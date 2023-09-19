@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Product Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+  <!-- <link rel="stylesheet" href="car.css"> -->
+  <link href="car.css" rel="stylesheet"/>
+   
+</head>
+  <body>
+    <nav>
+        <ul> <a href="../user_login_index.php" class="logo"> <span>HR</span>wheels&reg; </a>
+        <a href="../user_login_index.php" type="btn" class="back" >X</a> </ul>
+    </nav>  
+     <div class="centeri">
+      <div class="card">
+         <img src="ca/f6.png" class="Tata Altroz" style="width:100%">
+          <header>
+            <h3>MG Hector Plus</h3>
+                <h1><p>
+                        <span class="fas fa-circle"></span> 6 & 7 Seater
+                        <span class="fas fa-circle"></span> Manual & Automatic (DCT)
+                        <span class="fas fa-circle"></span> Petrol & Diesel<br>
+                        <span class="fas fa-circle"></span> 141-168 bhp
+                        <span class="fas fa-circle"></span> 1451 to 1956 cc
+                    </p></h1>
+          </header>
+      </div>
+    </div>
+
+    <div class="form">
+      <form action="car_booking_form.php" method="POST">
+        <h2>Car Booking Form</h2>
+        <label for="Name">Name:</label><br>
+        <input type="text" name="fullname"  required><br><br>
+
+    <label for="Email">Email:</label><br>
+        <input type="email" name="email" ><br><br>
+
+    <label for="Phone no.">Phone no.:</label><br>
+        <input type="tel" name="phone" maxlength="10" required><br><br>
+
+    <label for="Address">Address:</label><br>
+        <input type="text" name="address"  required><br><br>
+
+    <label for="Appointment Details">Come to the Branch:</label><br>
+        <input type="datetime-local" name="appointment"  required><br><br>
+    
+   
+        <button type="btn" name="car_book" class="btn">Submit</button>
+      
+        <label for="car_name" style="display: none;">Car Name:</label><br>
+        <input type="text" name="car_name" value="MG Hector Plus" style="display: none;"><br><br>
+        
+      
+      </form>
+    </div>
+</body>
+</html>

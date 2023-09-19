@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+              @import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+              @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+
+            body 
+              {
+                  background: whitesmoke;
+                  
+              }
+            img
+              {
+                  position: fixed;
+                  top: -8%;
+                  left: 0%;
+                  border-radius: 30px;
+                  opacity:0.9;
+                  transition: 0.5s;
+                  margin-left: -300px;
+              }
+            h1
+              {
+                  margin-left: -600px;
+                  transition: transform 10s;
+                  font-size: 20px;
+                  font-family: 'Poppins', sans-serif;
+                  color: black;
+                  margin-top: 0px;
+              }
+            .card:hover > p
+              {
+                  opacity:1;
+                  transform: scale(1.5);
+                  top:80%;
+              }
+            img, #parent 
+              {
+                  cursor: pointer;
+                  margin-top: 25px;
+              }
+            .card:hover > img
+              {
+                  opacity:1;
+                  transform: scale(1.4);
+              }
+            .card header
+              {
+                  position:absolute;
+                  top: 120%;
+                  left: 0%;
+                  padding: 1px;
+                  border-radius:  25px;
+                  width: 450px;
+                  height: 90px;
+                  transition: all .5s;
+                  opacity:0;
+              }
+            .card:hover > header
+              {
+                  opacity:1;
+                  width: 450px;
+                  height: 90px;
+                  transform: translateY(-120px);
+              }
+            .card 
+              {
+                  transition: transform .7s;
+                  margin: auto;
+                  text-align: center;
+                  font-family: arial;
+                  width: 450px;
+                  height: 360px;
+              }
+            .card:hover
+              {
+                  transform: scale(1.08)
+              }
+            .centeri
+              { 
+                  position: fixed;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+              }
+            span
+              {
+                  position: relative;
+              }
+            .header,h3
+            {
+              color: #f9d806;
+              margin-left: -600px;
+              font-size: 35px;
+              margin-top: -50px;
+            }
+            
+            span
+            {
+              color: #f9d806;
+            }
+            nav
+            {
+              padding: 1rem 9%;
+              margin-left: -104px;
+              margin-top: -29px;
+            }
+            ul
+            {
+              font-size: 2.5rem;
+              color: black;
+              font-weight: bold;
+            }
+            nav,ul,a
+            {
+              color: black;
+              text-decoration: none;
+            }
+            .back
+            {
+              position: absolute;
+              top: 8px;
+              right: 35px;
+              height: 73px;
+              color: black;
+              font-size: 3rem;
+              border: none;
+              margin-right: 20px;
+              background-color: whitesmoke;
+              font-weight: 900;
+              font-size: 45px;
+              font-family: cursive;
+            }
+            form{
+                display: block;
+                padding: 100px;
+                text-align: center;
+                margin-top: 15px;
+                width: 22rem;
+                height: 480px;
+                border-radius: 0.5rem;
+                margin-left: 920px;
+                box-shadow: 0.5rem 1rem rgb(0 0 0 / 10%);
+                border: 0.1rem solid rgba(0,0,0,.1);
+                background: #fff;
+            }
+            .btn
+            {
+                width: 132px;
+                height: 45px;
+                display: block;
+                margin-left: 100px;
+                background-color: #ffee80;
+                margin-top: 20px;
+                border-radius: 5px;
+                font-size: 25px;
+            }
+            .btn:hover
+              {
+                background-color: #f9d806;
+              }
+            button.close
+            {
+                position: absolute;
+                top: 8px;
+                right: 10px;
+                height: 73px;
+                color: black;
+                font-size: 3rem;
+                border: none;
+                margin-right: 20px;
+                background-color: white;
+                font-weight: 900;
+                font-size: 45px;
+                font-family: cursive;
+            }
+            input  
+            {
+                width: 381px;
+                height: 50px;
+                border-radius: 0.5rem;
+                margin-left: -21px;
+                font-size: 20px;
+                font-family: monospace;
+            }
+            .form
+            {
+                margin-top: -90px;
+            }
+            h2
+            {
+              
+              font-size: 35px;
+              margin-top: -101px;
+              background-color: #f9d806;
+              padding: 12px 0px;
+              color: black;
+              margin-left: -102px;
+              width: 555px;
+              border-radius: 5px;
+            }
+            label
+              {
+                display: flex;
+                font-size: 20px;
+                margin-bottom: -15px;
+                color: #666;
+              }
